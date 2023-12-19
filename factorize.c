@@ -1,6 +1,6 @@
-#include "factor.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "factor.h"
 
 /**
  * factorize - Factorizes a number
@@ -11,7 +11,7 @@
  */
 int factorize(char *buffer)
 {
-	u_int32_t num, i;
+	uint32_t num, i;
 
 	num = atoi(buffer);
 	for (i = 2; i < num; i++)
